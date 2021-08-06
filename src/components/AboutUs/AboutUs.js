@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import { Component } from 'react';
 import {Col, Row} from 'react-bootstrap';
 import aboutus from "./aboutus.jpeg"
 

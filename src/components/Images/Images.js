@@ -1,6 +1,9 @@
 import { Component } from 'react';
 
 import './Images.css';
+import management from './Management.jpg';
+import planning from './Planning.jpg';
+import maintainance from './Maintainence.jpg'
 
 class Images extends Component {
     // constructor(props) {
@@ -15,11 +18,11 @@ class Images extends Component {
                         <h3>A Solid Ground for your Project</h3>
                     </div>
                     <br /> <br />
-                    <img style={{height:'70vh'}} src="../../Management.jpg" alt="#"></img>
+                    <img style={{height:'70vh'}} src={management} alt="#"></img>
                     
-                    <img style={{height:'70vh'}} src="../../Planning.jpg" alt="#"></img>
+                    <img style={{height:'70vh'}} src={planning} alt="#"></img>
                 
-                    <img style={{height:'70vh'}} src="../../Maintainence.jpg" alt="#"></img>
+                    <img style={{height:'70vh'}} src={maintainance} alt="#"></img>
                   
                 </div>   
                

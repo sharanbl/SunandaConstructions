@@ -1,6 +1,10 @@
 import { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
+import r1 from './r1.jpeg';
+import r2 from './r2.jpeg';
+import r3 from './r3.jpeg';
+
 
 
 class Reviews extends Component {
@@ -15,7 +19,7 @@ class Reviews extends Component {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="../../r1.jpeg"
+                src={r1}
                 alt="First slide"
                 />
               <Carousel.Caption>
@@ -27,7 +31,7 @@ class Reviews extends Component {
             <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="../../r2.jpeg" 
+                src={r2}
                 alt="First slide"
                 />
           
@@ -39,7 +43,7 @@ class Reviews extends Component {
             <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="../../r3.jpeg"
+                src={r3}
                 alt="First slide"
                 />
           
