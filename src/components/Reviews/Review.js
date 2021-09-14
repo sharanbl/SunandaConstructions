@@ -15,7 +15,7 @@ class Reviews extends Component {
     render() {
         return(
              
-            <Carousel fade interval="3000">
+            <Carousel fade interval={3000}>
             <Carousel.Item>
                 <img
                 className="d-block w-100"

@@ -9,7 +9,7 @@ class AboutUs extends Component {
 
     render() {
         return(
-                <>
+                <div>
                     <Row>
                         <Col sm={6}>
                             <img style={{width: '100%'}} src={aboutus} alt="#"/>
@@ -30,7 +30,7 @@ class AboutUs extends Component {
                             </p>
                         </Col>
                     </Row>
-                </>
+                </div>
             
         );
     }

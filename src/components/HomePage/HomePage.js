@@ -1,12 +1,13 @@
-import react, { Component } from 'react';
-import {Container} from 'react-bootstrap';
+import { Component } from 'react';
+
 import AboutUs from '../AboutUs/AboutUs';
 import Contact from '../Contact/Contact';
 
-import Header from '../Header/Header';
+
 import Images from '../Images/Images';
 import Licensed from '../Licensed/Licensed';
 import Reviews from '../Reviews/Review';
+import PopUpModal from '../PopUpModal/PopUpModal';
 import './HomePage.css';
 
 class HomePage extends Component {
@@ -23,6 +24,9 @@ class HomePage extends Component {
                     <h3>A Solid Ground for your Project</h3>
                 </div>
                 <br /> */}
+
+                <PopUpModal />
+
                 <Images />
        
                 
