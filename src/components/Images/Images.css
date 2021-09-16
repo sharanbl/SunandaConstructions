@@ -1,8 +1,11 @@
 
-img {
-    width: 30em;
-    height: 30em;
-}
 .images {
-    height: '100vh';
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-bottom: 20px;
+}
+  
+.images img {
+    width: 100%;
 }

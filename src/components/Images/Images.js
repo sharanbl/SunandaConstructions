@@ -13,16 +13,12 @@ class Images extends Component {
     render() {
         return(
                 <div className="images"> 
-                    <div className="welcome">
-                        <h1>Welcome to Sunanda Constructions</h1>
-                        <h3>A Solid Ground for your Project</h3>
-                    </div>
-                    <br /> <br />
-                    <img style={{height:'70vh'}} src={management} alt="#"></img>
+
+                    <img style={{height:'50vh'}} src={management} alt="#"></img>
                     
-                    <img style={{height:'70vh'}} src={planning} alt="#"></img>
+                    <img style={{height:'50vh'}} src={planning} alt="#"></img>
                 
-                    <img style={{height:'70vh'}} src={maintainance} alt="#"></img>
+                    <img style={{height:'50vh'}} src={maintainance} alt="#"></img>
                   
                 </div>   
                
