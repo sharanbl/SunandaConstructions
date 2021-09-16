@@ -10,5 +10,8 @@
 }
 
 #imgdiv {
-    margin-left: 38em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
