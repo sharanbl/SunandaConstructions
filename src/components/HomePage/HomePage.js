@@ -26,7 +26,10 @@ class HomePage extends Component {
                 <br /> */}
 
                 <PopUpModal />
-
+                     <div className="welcome">
+                        <h1>Welcome to Sunanda Constructions</h1>
+                        <h3>A Solid Ground for your Project</h3>
+                    </div>
                 <Images />
        
                 
