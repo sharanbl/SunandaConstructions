@@ -33,14 +33,16 @@ class PopUpModal extends Component {
         //template id: template_zzwalgn
         //User id: user_gmIwtNEzJxAm37BFG2Qhy
         //Service id: service_e2trhcg
-        console.log('Full name: ' + this.state.fullName)
-        console.log('Email: ' + this.state.email)
-        console.log('Number: ' + this.state.number)
-        console.log('Message: ' + this.state.message)
+        
+        // console.log('Full name: ' + this.state.fullName)
+        // console.log('Email: ' + this.state.email)
+        // console.log('Number: ' + this.state.number)
+        // console.log('Message: ' + this.state.message)
 
         const templateId = 'template_zzwalgn';
         const userId = 'user_gmIwtNEzJxAm37BFG2Qhy';
         const serviceId = 'service_e2trhcg';
+
         const templateParams = {
             fullname: this.state.fullName,
             emailid: this.state.email,
